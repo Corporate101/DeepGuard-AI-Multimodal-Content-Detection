@@ -1,9 +1,9 @@
-# 🚀 DeepGuard AI - Setup & Installation Guide
+# 🚀 DeepGuard AI - Complete Setup Guide
 
 ## 📋 Table of Contents
 - [Prerequisites](#prerequisites)
 - [Quick Start](#quick-start)
-- [Local Installation](#local-installation)
+- [Detailed Installation](#detailed-installation)
 - [Docker Deployment](#docker-deployment)
 - [Streamlit Cloud Deployment](#streamlit-cloud-deployment)
 - [Testing](#testing)
@@ -14,46 +14,22 @@
 
 ## 🛠 Prerequisites
 
-Before you begin, ensure you have the following installed:
-
-- **Python 3.8** or higher
-- **4GB RAM** minimum
-- **2GB free disk space**
-- **Internet connection** for package downloads
-- **Git** for version control
-
-### System Dependencies
-
-**Ubuntu/Debian:**
-```bash
-sudo apt-get update
-sudo apt-get install libmagic1 ffmpeg python3-dev build-essential# 🚀 DeepGuard AI - Setup & Installation Guide
-
-## 📋 Table of Contents
-- [Prerequisites](#prerequisites)
-- [Quick Start](#quick-start)
-- [Local Installation](#local-installation)
-- [Docker Deployment](#docker-deployment)
-- [Streamlit Cloud Deployment](#streamlit-cloud-deployment)
-- [Testing](#testing)
-- [Troubleshooting](#troubleshooting)
-- [Project Structure](#project-structure)
+### Minimum System Requirements
+- **OS**: Windows 10+, macOS 10.14+, or Ubuntu 18.04+
+- **RAM**: 4GB minimum, 8GB recommended
+- **Storage**: 2GB free space
+- **Python**: 3.8 or higher
+- **Internet**: Required for package downloads
 
 ---
 
-## 🛠 Prerequisites
+## ⚡ Quick Start
 
-Before you begin, ensure you have the following installed:
-
-- **Python 3.8** or higher
-- **4GB RAM** minimum
-- **2GB free disk space**
-- **Internet connection** for package downloads
-- **Git** for version control
-
-### System Dependencies
-
-**Ubuntu/Debian:**
+### One-Command Setup (All Platforms)
 ```bash
-sudo apt-get update
-sudo apt-get install libmagic1 ffmpeg python3-dev build-essential
+# Clone the repository
+git clone https://github.com/yourusername/DeepGuard-AI.git
+cd DeepGuard-AI
+
+# Run automated setup script
+./scripts/setup.sh
